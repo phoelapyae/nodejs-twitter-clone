@@ -8,14 +8,20 @@
     "test": "env-cmd jest --testEnvironment=node --verbose --forceExit --watchAll --maxWorkers=1"
   },
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0",
     "mongoose": "^6.9.0",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.20",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "sharp": "^0.31.3",
+    "supertest": "^6.3.3",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
